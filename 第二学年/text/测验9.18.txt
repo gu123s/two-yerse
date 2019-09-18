@@ -15,5 +15,5 @@ ECMAScript,Dom,Bom
 运行错误是文件开始运行，到一半的时候发现有BUG，停止运行
 4.JavaScript的数据类型包括什么?分别写出.
 答:
-基本数据类型：null，字符串，underfiend，数字，ob ject
-引入数据类型
+基本数据类型：null，字符串，underfiend，数字，布尔值
+引入数据类型：ob ject
