@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+        <input id="in1" type="text" onkeyup="if(!/^\d+$/.test(this.value)) {alert('只能输入数字 !');}"/>
+        <input id="in2" type="text" onkeyup="if(!/^\d+$/.test(this.value)) {alert('只能输入数字 !');}"/>
+        <input id="sum" type="text"/>
+        <button id="btn">求和</button>
+    <script>
+        
+        var add1 = document.getElementById("in1").value;
+        var add2 = document.getElementById("in2").value;
+        document.getElementById("btn").value = add1*1 + add2*1;
+        }
+    }
+}
+        </script>
+</body>
+</html>

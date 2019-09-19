@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="date" id="d">
+    <script>
+    var d = document.getElementById('d');
+    var nw = confirm('女生点确定');
+    d.oninput = function(){
+    var dv = d.value;
+    var 日期判断 = (dv == '2019-03-08')
+    if(nw && 日期判断){
+        alert('五折');
+    }else{
+        alert('不打折');
+    }
+    }
+    // var d = document.getElementById('d');
+    // var nw = confirm('女生点击确定');
+    // //console.log(nw);
+    // d.oninput = function(){
+    //     //d.value == '2019-03-09' 返回值 对 错
+    //     //true/false       true/false
+    //     d.value == '2019-03-08' && nw ? alert('五折'):alert('不打折');
+    //     }
+    </script>
+</body>
+</html>
